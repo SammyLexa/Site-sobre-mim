@@ -1,0 +1,60 @@
+@import url(../compartilhada/cores__fontes.css);
+
+
+.sobreMim{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10% 15%;
+}
+
+.sobreMim__conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.sobreMim__titulo{
+    color:var(--cor-hover);
+    font-family: var(--fonte-titulo);
+    font-size: var(--tamanho-titulo); /*36px cdmd*/
+}
+
+.sobreMim__paragrafo{
+    font-family: var(--fonte-paragrafo);
+    font-size: var(--tamanho-paragrafo); /*24px anteriormente*/
+    font-weight: 400;
+}
+
+.foto{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    width: 50%;
+    align-items: center;
+    border: var(--cor-terciaria) solid 3px;
+}
+
+strong {
+    color: var(--cor-terciaria);
+}
+
+.front{
+    color:var(--cor-destaque);
+}
+
+.dev:hover {
+    color: var(--cor-hover);
+}
+
+@media (max-width: 700px) {
+    .sobreMim{
+        flex-direction: column-reverse;
+    }
+
+    .sobreMim__conteudo{
+        width: auto;
+    }
+}

@@ -1,0 +1,60 @@
+@import url(../../compartilhada/cores__fontes.css);
+
+.apresentacao {
+    align-items: center; /*Alinha os itens ao centro*/
+    display: flex; /*Propriedade do flebox que deixa os elementos flexiveis, evitando a quebra em telas menores*/
+    justify-content: space-between; /*space-between(espaço-entre) os itens são distribuídos uniformemente na linha; primeiro item está na linha de partida, último item na linha final*/
+    padding: 10% 15%; /*Espaço externo de 10% em cima e embaixo de 10%, 15% de esquerda e direita*/
+    gap:80px;
+}
+
+.apresentacao__conteudo{
+    width: 50%; /*Largura de apresentação de 615px, com essa propriedade o paragrafo e os botões não utrapassam a largura do título, ou seja o conteudo inteiro tem largura de 615px*/
+    display: flex; /*Propriedade que faz com que os eementos se tornem flexiveis, possibilitando a responsividade*/
+    flex-direction: column; /*Por padrão o flexbox vem em direção de linha, por isso alternamos para coluna*/
+    gap: 40px; /*Espaçamento entre o título e o parágrafo */
+}
+
+.apresentacao__conteudo__titulo{
+    font-family: var(--fonte-titulo); /*Fonte do texto de "Krona One", da familia de fontes sem serifa*/
+    font-size: var(--tamanho-titulo); /*antigo Tamanho da fonte de 36px*/
+}
+
+strong {
+    color: var(--cor-terciaria); /*cor do texto em destaque, ao marcar a tag em vez da classe todas as tags strong ficarão da mesma cor*/
+}
+
+.apresentacao__conteudo__paragrafo{
+    font-size: var(--tamanho-paragrafo); /*Tamanho da fonte de 24px*/
+    font-family: var(--fonte-paragrafo); /*Fonte do texto de "Montserrat", da familia de fontes sem serifa*/
+}
+
+.sammy:hover {
+    color: var(--cor-hover);
+}
+
+.foto{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    width: 45%;
+    align-items: center;
+    border: var(--cor-terciaria) solid 3px;
+}
+
+@media (max-width: 700px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+        
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+        
+    }
+
+    .foto{
+        width: 90%;
+    }
+}

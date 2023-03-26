@@ -1,0 +1,55 @@
+@import url(../compartilhada/cores__fontes.css);
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+    .cards {
+        display:flow-root ;
+        margin: 3%;
+        justify-content: space-evenly;
+
+    }
+}
+
+.cards__titulo{
+    font-family: var(--fonte-titulo);
+    font-size: var(--tamanho-titulo);
+    text-align: center;
+    padding: 1.875 rem;
+}
+
+.cards__projetos {
+    background-color: #161414;
+    font-family: var(--fonte-paragrafo); 
+    font-size: var(--tamanho-paragrafo);
+    border: var(--cor-terciaria) ridge 5px ;
+    gap: 1.875 rem;
+    margin: 2%;
+    padding: 3%;
+    border-radius: 2rem;
+    display:flex;
+    flex-direction: column;
+    width: 315px;
+}
+
+.cards__projetos__summary:hover{
+    cursor: pointer;
+    color:var(--cor-hover);
+    font-size: 2rem;
+}
+
+.cards__projetos__paragrafo{
+    font-size: var(--tamanho-paragrafo);
+    font-family: var(--fonte-paragrafo);
+    display:flex;
+    padding: 3%;
+}
+
+.cards__projetos__lista{
+    list-style-type: none;
+}

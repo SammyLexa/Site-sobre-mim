@@ -1,0 +1,25 @@
+.objetivo{
+    font-family: url(../compartilhada/cores__fontes.css);
+    display: flex;
+    padding-bottom: 5%;
+}
+
+.objetivo__titulo{
+    font-family: 'Krona One', sans-serif;
+    color:var(--cor-terciaria);
+    font-size: var(--tamanho-titulo);
+    border-top: var(--cor-terciaria) dotted 5px;
+    border-bottom: var(--cor-terciaria) dotted 5px;
+}
+
+.objetivo__paragrafo{
+    font-family: var(--fonte-paragrafo);
+    font-size: var(--tamanho-paragrafo);
+padding-left: 5%;
+}
+
+@media (max-width: 700px) {
+    .objetivo{
+        flex-direction: column;
+    }
+}

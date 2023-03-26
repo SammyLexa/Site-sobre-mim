@@ -1,0 +1,46 @@
+@import url(../compartilhada/cores__fontes.css);
+
+.contato{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.25rem;
+    padding-bottom: 5%;
+    font-family: var(--fonte-titulo);
+}
+.contato__titulo{
+    font-size: var(--tamanho-titulo);
+    color: var(--cor-terciaria);
+    text-align: center;
+    padding: 5% 0%;
+}
+
+.contato__foto{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    width: 50%;
+    align-items: center;
+    border: var(--cor-terciaria) solid 3px;
+}
+
+.contato__icon{
+    height: 3.125 rem;
+    width: 3.125 rem;
+}
+
+.contato__links{
+    color:var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.contato__links:hover{
+    color: var(--cor-hover);
+    text-decoration: none;
+}
+
+.icones{
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,14 @@
+@import url(../compartilhada/cores__fontes.css);
+
+.rodape{
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    font-family: var(--fonte-paragrafo); /*Fonte do texto de "Montserrat", da familia de fontes sem serifa*/
+    font-size: 1.875 rem;
+    font-weight: 400;
+    padding: 1.5 rem;
+    text-align: center;
+}
+span{
+    display: block;
+}

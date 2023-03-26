@@ -1,0 +1,47 @@
+@import url(../../compartilhada/cores__fontes.css);
+
+
+.apresentacao__links{
+    display: flex; /*Propriedade do flebox que deixa os elementos flexiveis, evitando a quebra em telas menores*/
+    justify-content: space-between; /*space-between(espaço-entre) os itens são distribuídos uniformemente na linha; primeiro item está na linha de partida, último item na linha final*/
+    flex-direction: column; /*Por padrão a direção do flex é em linha, por isso usamos essa propriedade para colocar os elementos um embaixo do outro*/
+    align-items: center; /*Os elementos começam alinhados por padrão ao inicio, para mudarmos isso usamos center, para alinharmos eles ao centro*/
+    gap: 30px; /*Adiciona espaços iguais que os elementos terão entre si, nesse caso entre o subtitulo e os botões*/
+}
+
+.apresentacao__links__subtitulo{
+    color: var(--cor-secundaria);
+    font-family:'Krona One', sans-serif; /*Fonte do texto de "Krona One", da familia de fontes sem serifa*/
+    font-size: 1.85 rem; /*Tamanho da fonte de 24px*/
+    font-weight: 400px; 
+}
+
+.apresentacao__links__botao{
+    border: 5px ridge var(--cor-terciaria);
+    border-radius: 16px; /*Tamanho do raio da borda de 16px, propriedade que deixa os botões arredondados*/
+    color: var(--cor-secundaria); /*cor do texto dos botões*/
+    display: flex; 
+    align-items: center; /*centraliza*/
+    gap: 16px; /*espaçamento iguais entre os elementos*/
+    font-family: var(--fonte-paragrafo); /*Fonte do texto de "Montserrat", da familia de fontes sem serifa*/
+    font-size: var(--tamanho-paragrafo); /*Tamanho da fonte de 24px*/
+    font-weight: 600; /*peso da fonte de 600*/
+    padding: 21.5px; /*expaçamento interno dos botões de 21.5px encima e embaixo e 0 dos lados*/
+    text-decoration: none; /*Retira a decoração do link de ficar underline*/
+    text-align: center; /*deixa o texto alinhado ao centro*/
+    width: 70%; /*deixa o texto com uma largura de 280px*/
+}
+
+@media (max-width:600px){
+    .apresentacao__links__botao{
+        width: 150px;
+    }
+}
+
+.apresentacao__links__botao:hover {  /*estilos que são adicionados ao passar o cursor no elemento*/
+    background-color:var(--cor-terciaria);
+    color:var(--cor-primaria); 
+    border: none;
+    transition: 1s; /*efeito de transição*/
+ 
+}

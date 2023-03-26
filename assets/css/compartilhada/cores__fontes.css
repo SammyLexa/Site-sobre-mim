@@ -1,0 +1,23 @@
+:root {
+    --cor-primaria: #000000; /*background*/
+    --cor-secundaria: #F6F6F6; /*texto*/
+    --cor-terciaria: #ee154f;/*titulos */
+    --cor-destaque: #ff01aaec; /*destaque*/
+    --cor-hover:blueviolet; /*hover*/
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap'); /*Titulos*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); /*paragrafo*/
+
+:root{
+    --fonte-titulo: 'Krona One', sans-serif; /*titulo*/
+    --fonte-paragrafo: 'Montserrat', sans-serif; /*paragrafo*/
+}
+
+:root{
+    --tamanho-titulo: 2.25rem; /*Título*/
+    --tamanho-paragrafo: 1.5rem; /*Parágrafo*/
+    --tamanho-menor-destaque: 1.70rem ;/*tamanho menor que titulo mas maior doque paragrafo*/
+}
+

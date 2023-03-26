@@ -1,0 +1,33 @@
+
+.formacao{
+    margin-bottom: 5%;
+    display:flex;
+    flex-direction: column;
+    gap:1.875 rem;
+}
+
+.formacao__titulo{
+    border-top: var(--cor-terciaria) dotted 5px;
+    border-bottom: var(--cor-terciaria) dotted 5px;
+    font-family: var(--fonte-titulo);
+    color:var(--cor-terciaria);
+    font-size: var(--tamanho-titulo);
+    text-align: center;
+}
+
+.formacao__subtitulo{
+    font-family: var(--fonte-titulo);
+    color:var(--cor-terciaria);
+    font-size: var(--tamanho-menor-destaque);
+    text-align: center;
+}
+.formacao__lista{
+    font-family: var(--fonte-paragrafo);
+    font-size: var(--tamanho-paragrafo);
+    padding-left: 5%;
+}
+
+.formacao__paragrafo{
+    font-family: var(--fonte-paragrafo);
+    font-size: var(--tamanho-paragrafo);
+}

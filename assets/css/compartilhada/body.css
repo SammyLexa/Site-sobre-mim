@@ -1,0 +1,5 @@
+body {
+    background-color: var(--cor-primaria); /*cor de fundo*/
+    box-sizing: border-box; /*propriedade que define como a largura e a altura de um elemento são calculadas: devem incluir preenchimento e bordas ou não*/
+    color: var(--cor-secundaria); /*cor do texto*/
+}

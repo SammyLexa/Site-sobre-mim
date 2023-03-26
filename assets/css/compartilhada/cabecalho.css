@@ -1,0 +1,31 @@
+@import url(../compartilhada/cores__fontes.css);
+
+.cabecalho{
+    padding: 2% 0% 2% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px; /*Poem os espaçoes entre as palavras do menu, se quisermos estilisarmos os filhos a propriedade vai no pai no flexbox*/
+}
+
+.cabecalho__menu__link{
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-paragrafo);
+    font-size: var(--tamanho-paragrafo);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+
+    .cabecalho__menu {
+        justify-content: center;
+        gap: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .cabecalho__menu {
+        display: block;
+    }
+}

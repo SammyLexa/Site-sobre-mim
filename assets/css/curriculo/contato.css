@@ -29,6 +29,9 @@
     height: 3.125 rem;
     width: 3.125 rem;
 }
+contato__icon--botao{
+    align-items: flex-end;
+}
 
 .contato__links{
     color:var(--cor-terciaria);

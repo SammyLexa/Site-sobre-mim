@@ -30,7 +30,7 @@
     width: 3.125 rem;
 }
 contato__icon--botao{
-    align-items: flex-end;
+    align-items: baseline;
 }
 
 .contato__links{

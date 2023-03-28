@@ -28,6 +28,7 @@
 .contato__icon{
     height: 3.125 rem;
     width: 3.125 rem;
+    display: flex;
 }
 
 .contato__icon--botao{

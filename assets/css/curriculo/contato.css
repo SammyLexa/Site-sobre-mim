@@ -28,7 +28,6 @@
 .contato__icon{
     height: 3.125 rem;
     width: 3.125 rem;
-    justify-content: baseline;
 }
 
 .contato__links{
@@ -44,4 +43,5 @@
 .icones{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }

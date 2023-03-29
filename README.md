@@ -13,7 +13,7 @@ Nesse site você poderá ter acesso ao meu currículo, links de redirecionamento
 
 <h2>Desenvolvedora:</h2>
 <img width="200px" src="https://user-images.githubusercontent.com/123910027/227732191-4385c938-5b77-4feb-8d64-a5b486763fdd.jpg" alt="Imagem de Samantha Alexandra Pereira"></br>
-- [LinkedIn](https://www.linkedin.com/in/samantha-alexandra-pereira/)
+- [LinkedIn](https://www.linkedin.com/in/samantha-alexandra-pereira/) </br>
 - [GitHub](https://github.com/SammyLexa)
 <h3>Samantha Alexandra Pereira</h3>
 <h3>Sobre mim</h3>
